@@ -1,10 +1,10 @@
 public class PalindromePattern {
     public static void main(String[] args) {
-        int n = 5;
+        final int PATTERN_HEIGHT = 5;
 
-        for (int i = 1; i <= n; i++) {
+        for (int i = 1; i <= PATTERN_HEIGHT; i++) {
 
-            for (int j = i; j < n; j++) {
+            for (int j = i; j < PATTERN_HEIGHT; j++) {
                 System.out.print("  ");
             }
 
